@@ -9,6 +9,7 @@ import SwiftUI
 import SwiftData
 import FirebaseCore
 import FirebaseFirestore
+import GoogleSignIn
 import Combine
 
 class AppDelegate: NSObject, UIApplicationDelegate {

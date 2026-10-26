@@ -24,8 +24,8 @@ struct NewAppApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            AuthenticationView()
-            //MainView(mainVM: MainViewModel())
+            //AuthenticationView()
+            MainView(mainVM: MainViewModel())
         }
     }
 }
